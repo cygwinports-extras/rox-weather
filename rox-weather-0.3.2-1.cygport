@@ -1,0 +1,7 @@
+ORIG_PN="Weather"
+inherit rox
+
+SRC_URI="ftp://ftp.berlios.de/pub/rox4debian/apps/${ORIG_PN}-${PV}.tgz"
+SRC_DIR=.
+
+ROX_APP=${ORIG_PN}
